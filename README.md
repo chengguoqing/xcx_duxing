@@ -2,6 +2,8 @@
 
 > 作者@程国庆
 
-## Build Setup
+## 浏览效果
 
-![Alt text](https://github.com/chenyufeng1991/NewsClient/raw/master/Screenshots/2.png)
+![Alt text](https://github.com/chengguoqing/xcx_duxing/fm/du_a.jpg)
+![Alt text](https://github.com/chengguoqing/xcx_duxing/fm/du_b.jpg)
+![Alt text](https://github.com/chengguoqing/xcx_duxing/fm/du_c.jpg)
