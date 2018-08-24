@@ -1,0 +1,22 @@
+<view class="pd pt20 pm20 bgff">
+  <view class='fz34'>
+    标题标题标题标题
+  </view>
+  <view class="ye fz32 mt20">
+    ￥100.00
+  </view>
+</view>
+
+<view class='mt10'>
+
+  <dianzhu></dianzhu>
+</view>
+
+<view class="mt10 bgff pd pt20 pm20 dsf_hgh_drrty">
+  <image src='/img/dfs_sdf.jpg' class='w100 kx' wx:for="{{10}}"></image>
+
+</view>
+
+
+
+<dsdb></dsdb>

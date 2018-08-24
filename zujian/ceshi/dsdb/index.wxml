@@ -1,0 +1,40 @@
+<!-- 详情底部按钮 立即购买-加入购物车-->
+
+<view class='btm dsf_dibu_df'>
+  <view class='mui-col-xs-5 cen'>
+
+
+    <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_index'>
+      <image src='/img/zhuye.png'></image>
+      <view class='fz26 z6'>主页</view>
+    </view>
+    <button open-type="share" class='mui-col-xs-4 fdsf_jh_deet pt10'>
+      <image src='/img/fenxiang.png'></image>
+      <view class='fz26 z6'>分享</view>
+    </button>
+
+    <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_wgc'>
+      <image src='/img/houwuceh.png'></image>
+      <view class='fz26 z6'>购物车</view>
+    </view>
+
+    <view class='qc'></view>
+  </view>
+
+  <view class='mui-col-xs-7 cen'>
+
+    <view class='dsf_sdff_der mui-col-xs-6 '>
+      加入购物车
+    </view>
+
+
+    <view class='dsf_sdff_der ab mui-col-xs-6 '>
+      立即购买
+    </view>
+
+  </view>
+
+
+
+  <view class='qc'></view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dianzhu": "/zujian/ceshi/dianzhu/index",
+    "dsdb": "/zujian/ceshi/dsdb/index"
+  }
+}

@@ -1,0 +1,38 @@
+@import '../base.wxss';
+.dsf_dibu_df{
+    position: fixed;
+  height: 100rpx;
+  line-height: 100rpx;
+
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: #fff;
+  z-index: 10000
+}
+.fdsf_jh_deet{
+  line-height: 1 
+}
+.fdsf_jh_deet image{ 
+  width: 50rpx;
+  height: 50rpx;
+}
+.dsf_sdff_der{ 
+  font-size: 32rpx;
+}
+.dsf_sdff_der{
+  color: #fff;
+  background: #F4AE49
+}
+.dsf_sdff_der.ab{
+  background: #EE8034
+}
+.fdsf_jh_deet{
+  background: #fff !important;
+  border: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.fdsf_jh_deet::after{
+  display: none
+}

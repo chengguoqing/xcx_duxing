@@ -1,0 +1,36 @@
+.sd_jhg_deer {
+  width: 90rpx;
+  height: 90rpx;
+  background: linear-gradient(to top, #f53d3c, #ff8662);
+  margin: auto;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+}
+
+.sd_jhg_deer image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.sd_jhg_deer.ab {
+  background: linear-gradient(to top, #ff7b11, #ffa14c);
+}
+
+.sd_jhg_deer.ac {
+  background: linear-gradient(to top, #16acfa, #7fdaff);
+}
+
+.sd_jhg_deer.ac image {
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+  top: -5rpx;
+}
+.jinping_er{
+  width: 269rpx;
+  height: 47rpx;
+}
+.dfs_sdf_der{
+  width: 100%;
+  height: 360rpx;
+}

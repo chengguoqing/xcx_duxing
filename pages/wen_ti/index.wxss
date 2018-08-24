@@ -1,0 +1,16 @@
+page{
+  background: #fff
+}
+.cnjian_dert{
+  border-left: 3px solid #FF7700;
+  line-height: 1;
+  font-size: 32rpx;
+  padding-left: 20rpx;
+}
+.sd_jh_eet{
+  padding-left: 28rpx;
+}
+
+.sd_Jh_drrty{
+border-top: 1px dashed #e0e0e0; 
+}

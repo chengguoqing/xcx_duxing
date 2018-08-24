@@ -1,0 +1,75 @@
+/**app.wxss**/
+@import 'bass.wxss';
+
+page {
+  font-family: 'Microsoft Yahei';
+  background: #eee;
+}
+
+.youhuitou {
+  background: #f70;
+}
+
+.youhuitou_b {
+  height: 90rpx;
+  background: #fff;
+  position: relative;
+  line-height: 90rpx;
+}
+
+.logo_iconsd {
+  width: 148rpx;
+  height: 31rpx;
+  margin-left: 30rpx;
+}
+
+.ss_jh_ddr {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 32rpx;
+  padding-left: 220rpx !important;
+}
+
+.ss_btn_d {
+  position: absolute;
+  right: 20rpx;
+}
+
+.load_jhsdx {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.sjg_btns {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  z-index: 9999;
+}
+
+.sd_jh_dertxc {
+  width: 220rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background: #fbfbfb;
+  border: 1px solid #f4f4f4;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.case_jpg {
+  width: 126rpx;
+  height: 125rpx;
+  float: left;
+}
+
+.dsf_hjg_de {
+  background: #f70;
+  line-height: 90rpx;
+  color: #fff;
+  text-align: center;
+}

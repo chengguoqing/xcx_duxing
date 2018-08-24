@@ -1,0 +1,33 @@
+
+@import '../base.wxss';
+.dfs_sdf_de {
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+}
+.sd_jhg_deer{
+  width: 380rpx;
+  float: left
+}
+.dianhua_sd{
+  width: 70rpx;
+  height: 70rpx;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70rpx;
+  border: 1px solid #6693EB;
+  background: #fff;
+  padding: 0px;
+ 
+}
+.dianhua_sd.ab{
+    border: 1px solid #5FBD21;
+}
+.dianhua_sd image{
+  width: 35rpx;
+  height: 35rpx;
+   position: relative;
+  bottom: 5rpx;
+}
+

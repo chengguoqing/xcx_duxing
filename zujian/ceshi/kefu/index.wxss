@@ -1,0 +1,22 @@
+.keuf_deert{
+  position: fixed;
+  right: 20rpx;
+  bottom: 50rpx;
+   background:rgba(255,255,255,0.5); 
+
+  padding: 0px;
+  height: 80rpx;
+  width: 80rpx;
+  line-height: 80rpx;
+  
+}
+.keuf_deert image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.keuf_deert::after{
+  display: none
+}
+.cz {
+  vertical-align: middle !important;
+}

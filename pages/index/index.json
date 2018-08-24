@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dx_banner": "/zujian/ceshi/index/index",
+    "dianzhu": "/zujian/ceshi/dianzhu/index"
+  }
+}

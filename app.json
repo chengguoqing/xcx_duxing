@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/xiangqing/xiangqing",
+    "pages/index/index",
+    "pages/wen_ti/index",
+    "pages/gwc/index",
+    "pages/user_center/index",
+    "zujian/ceshi/index/index",
+    "zujian/ceshi/dsdb/index",
+    "zujian/ceshi/kefu/index",
+    "zujian/ceshi/dianzhu/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "独行工匠",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "color": "#737373",
+    "selectedColor": "#FF7700",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/bottom/index.png",
+        "selectedIconPath": "/img/bottom/index_a.png"
+      },
+      {
+        "pagePath": "pages/gwc/index",
+        "text": "购物车",
+        "iconPath": "/img/bottom/gwc.png",
+        "selectedIconPath": "/img/bottom/gwc_c.png"
+      },
+      {
+        "pagePath": "pages/user_center/index",
+        "text": "我的",
+        "iconPath": "/img/bottom/user_b.png",
+        "selectedIconPath": "/img/bottom/user.png"
+      },
+      {
+        "pagePath": "pages/wen_ti/index",
+        "text": "常见问题",
+        "iconPath": "/img/bottom/wen.png",
+        "selectedIconPath": "/img/bottom/wen_b.png"
+      }
+    ]
+  }
+}

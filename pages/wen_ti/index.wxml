@@ -1,0 +1,28 @@
+<!-- 常见问题 -->
+
+<view class='pd btm'>
+    <view class='pt20 pm20'>
+        <view class='cnjian_dert z3'>
+            常见问题
+        </view>
+        <view class='z9 fz26 mt10 sd_jh_eet'>
+          如有更多问题资询,请直接联系!
+        </view>
+    </view>
+
+
+    <view class='sd_Jh_drrty pt20 pm20' wx:for="{{fuwu_sf}}">
+        <view class='z3 fz32'>
+          {{(index+1)+item.title}}
+        </view>
+
+        <view class='z9 fz26 mt10'>
+            {{item.dose}}
+        </view>
+    
+    </view> 
+
+
+</view>
+
+<kefu></kefu>

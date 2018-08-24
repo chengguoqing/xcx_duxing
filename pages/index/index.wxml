@@ -1,0 +1,47 @@
+<dx_banner imgUrls="{{imgUrls}}"></dx_banner>
+
+<view class='mui-row cen bgff pt30 pm20'>
+
+  <view class='mui-col-xs-4 ' wx:for="{{t_sd_fert}}">
+    <view class='sd_jhg_deer {{item.cls}}'>
+      <image src='{{item.icon}}' class='cz'></image>
+    </view>
+    <view class='cen fz30 mt5'>
+      {{item.name}}
+    </view>
+  </view>
+
+
+
+  <view class='qc'></view>
+</view>
+
+
+<view class='mt10'>
+  <dianzhu></dianzhu>
+</view>
+
+
+<view class='mt10 bgff'>
+  <view class='cen pt20 pm10'>
+    <image src='/img/jinping.jpg' class='jinping_er'></image>
+  </view>
+  <view class='pl10'>
+
+
+    <navigator class='pr10 mui-col-xs-6 mb10' wx:for="{{6}}" url=  "/pages/xiangqing/xiangqing">
+      <image src='/img/dfs_sdf.jpg' class='dfs_sdf_der' mode="aspectFill"></image>
+      <view class='dian fz26'>
+        标题标题标题标题标题标题标题
+      </view>
+      <view class='ye fz26 mt10'>
+        ￥8.8
+      </view>
+    </navigator>
+
+    <view class='qc'></view>
+
+  </view>
+
+  
+</view>
