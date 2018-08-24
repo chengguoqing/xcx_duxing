@@ -6,5 +6,5 @@
   
  
 ![Alt text](./fm/du_a.jpg)
-![Alt text](https://github.com/chengguoqing/xcx_duxing/tree/master/fm/du_b.jpg)
-![Alt text](https://github.com/chengguoqing/xcx_duxing/tree/master/fm/du_c.jpg)
+![Alt text](./fm/du_b.jpg)
+![Alt text](./fm/du_c.jpg)
