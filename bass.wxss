@@ -1,4 +1,4 @@
-view, navigator, image {
+view, navigator, image,input,textarea {
   box-sizing: border-box;
 }
 

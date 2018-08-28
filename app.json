@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/gwc/index",
     "pages/xiangqing/xiangqing",
     "pages/index/index",
     "pages/wen_ti/index",
-    "pages/gwc/index",
+    
     "pages/user_center/index",
     "zujian/ceshi/index/index",
     "zujian/ceshi/dsdb/index",

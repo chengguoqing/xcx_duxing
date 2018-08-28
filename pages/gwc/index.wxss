@@ -1,1 +1,29 @@
-/* pages/gwc/index.wxss */
+.sd_er_ertx {
+  width: 600rpx;
+  margin: auto;
+}
+
+.sd_er_ertx input {
+  border: 1px solid #dadada;
+  line-height: 70rpx;
+  height: 70rpx;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+  padding-left: 30rpx !important;
+  margin-bottom: 30rpx;
+}
+
+.sd_er_ertx textarea {
+  border: 1px solid #dadada;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+  padding-left: 30rpx !important;
+  padding-top: 20rpx;
+  text-indent: 0px !important;
+  width: 100%;
+}
+
+.tijiao_et {
+  background: #f70;
+  color: #fff;
+}

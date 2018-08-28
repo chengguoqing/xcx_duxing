@@ -1,2 +1,16 @@
-<!--pages/gwc/index.wxml-->
-<text>pages/gwc/index.wxml</text>
+<view class='pd pt40 bgff btm pm40'>
+    <view class="sd_er_ertx">
+    
+      <input type='tel' placeholder='请输入电话号码'></input>
+        <input type='text' placeholder='请输入微信号'></input>
+        <textarea placeholder='备注需求信息，列如：适应终端、参考案例、需求背景，工作周期等'></textarea>
+
+        <view class="mt40 ">
+          <button class='fz32 tijiao_et' bindtap='fabuxyq'>提交需求</button>
+        </view>
+
+        <view class='red fz26 pt20'>
+        提示：推荐朋友可以抽20%的分红哦
+        </view>
+    </view>
+</view>
