@@ -1,1 +1,4 @@
-333
+<view class='user_icon_er cen pt40'>
+      <image src='/img/touxiang.jpg' class='yj user_eert'></image>
+      <view class='fz32 cf mt10'>独行工匠</view>
+</view>

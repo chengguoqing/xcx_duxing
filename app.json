@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/user_center/index",
+    "pages/index/index",
+    "pages/list/index",
     "pages/gwc/index",
     "pages/xiangqing/xiangqing",
-    "pages/index/index",
     "pages/wen_ti/index",
-    
-    "pages/user_center/index",
     "zujian/ceshi/index/index",
     "zujian/ceshi/dsdb/index",
     "zujian/ceshi/kefu/index",
@@ -13,9 +13,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "独行工匠",
-    "navigationBarTextStyle": "black"
+  "navigationBarBackgroundColor": "#f70",
+  "navigationBarTextStyle": "",
+    "navigationBarTitleText": "独行工匠"
   },
   "tabBar": {
     "backgroundColor": "#ffffff",
@@ -31,7 +31,7 @@
       },
       {
         "pagePath": "pages/gwc/index",
-        "text": "购物车",
+        "text": "提交需求",
         "iconPath": "/img/bottom/gwc.png",
         "selectedIconPath": "/img/bottom/gwc_c.png"
       },

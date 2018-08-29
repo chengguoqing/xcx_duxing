@@ -2,14 +2,14 @@
 
 <view class='mui-row cen bgff pt30 pm20'>
 
-  <view class='mui-col-xs-4 ' wx:for="{{t_sd_fert}}">
+  <navigator class='mui-col-xs-4 ' wx:for="{{t_sd_fert}}" url="/pages/list/index">
     <view class='sd_jhg_deer {{item.cls}}'>
       <image src='{{item.icon}}' class='cz'></image>
     </view>
     <view class='cen fz30 mt5'>
       {{item.name}}
     </view>
-  </view>
+  </navigator>
 
 
 

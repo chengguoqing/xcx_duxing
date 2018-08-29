@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "常见问题",
   "usingComponents": {
     "kefu": "/zujian/ceshi/kefu/index"
   }

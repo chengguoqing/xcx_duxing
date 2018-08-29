@@ -1,1 +1,8 @@
-/* pages/user_center/index.wxss */
+.user_icon_er{
+    background: #f70;
+    height: 300rpx
+}
+.user_eert{
+  width: 140rpx;
+  height: 140rpx;
+}

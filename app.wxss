@@ -73,3 +73,7 @@ page {
   color: #fff;
   text-align: center;
 }
+.dfs_sdf_der{
+  width: 100%;
+  height: 360rpx;
+}
