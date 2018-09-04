@@ -24,9 +24,7 @@ Component({
       })
     },
     go_wgc() {
-      wx.switchTab({
-        url: '/pages/gwc/index'
-      })
+     
     },
   },
 

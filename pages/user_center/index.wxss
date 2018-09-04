@@ -6,3 +6,10 @@
   width: 140rpx;
   height: 140rpx;
 }
+.right_eer{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 25rpx;
+}

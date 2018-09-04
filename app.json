@@ -1,10 +1,13 @@
 {
   "pages": [
-    "pages/user_center/index",
     "pages/index/index",
+    "pages/xiangqing/xiangqing",
+    "pages/wotijiao/index",
+    "pages/wodesc/index",
+    "pages/user_center/index",
+    "pages/my_order/index",
     "pages/list/index",
     "pages/gwc/index",
-    "pages/xiangqing/xiangqing",
     "pages/wen_ti/index",
     "zujian/ceshi/index/index",
     "zujian/ceshi/dsdb/index",
@@ -13,8 +16,8 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#f70",
-  "navigationBarTextStyle": "",
+    "navigationBarBackgroundColor": "#f70",
+    "navigationBarTextStyle": "",
     "navigationBarTitleText": "独行工匠"
   },
   "tabBar": {

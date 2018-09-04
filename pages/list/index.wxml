@@ -19,8 +19,9 @@
       <view class='dian fz26'>
         标题标题标题标题标题标题标题
       </view>
-      <view class='ye fz26 mt10'>
+<view class='ye fz30 mt10'>
         ￥8.8
+        <view class="fr fz24 ls mt5">月销量:30</view>
       </view>
     </navigator>
 

@@ -1,0 +1,13 @@
+<view class='bgff mb20' wx:for="{{10}}">
+
+ <view class='bbm pt20 fz26 z9 pd pm10'>
+       提交时间
+      <view class="fr z9">2018-09-03 16:20</view>
+      </view>
+
+
+      <view class="pd pt20 pm20 fz30 z6">
+      标题标题标题标题标题标题标题标题标题标题标题标题标题
+      </view>
+     
+</view>

@@ -1,7 +1,7 @@
 <!-- 详情底部按钮 立即购买-加入购物车-->
 
 <view class='btm dsf_dibu_df'>
-  <view class='mui-col-xs-5 cen'>
+  <view class='mui-col-xs-6 cen'>
 
 
     <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_index'>
@@ -14,21 +14,21 @@
     </button>
 
     <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_wgc'>
-      <image src='/img/houwuceh.png'></image>
-      <view class='fz26 z6'>购物车</view>
+      <image src='/img/xing.png'></image>
+      <view class='fz26 z6'>收藏</view>
     </view>
 
     <view class='qc'></view>
   </view>
 
-  <view class='mui-col-xs-7 cen'>
+  <view class='mui-col-xs-6 cen'>
 
-    <view class='dsf_sdff_der mui-col-xs-6 '>
+    <!-- <view class='dsf_sdff_der mui-col-xs-6 '>
       加入购物车
-    </view>
+    </view> -->
 
 
-    <view class='dsf_sdff_der ab mui-col-xs-6 '>
+    <view class='dsf_sdff_der ab mui-col-xs-12 '>
       立即购买
     </view>
 

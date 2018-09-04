@@ -1,0 +1,17 @@
+<view class="bgff mb20" wx:for="{{5}}">
+    <view class="pd fz26 pt20 pm20">
+  
+      <view class="   ">
+        <image src='/img/touxiang.jpg' class="touxeeer yj4 fl" ></image>
+        <view class='ov pl20'>
+          <view class='fz32 dian mt10'>标题</view>
+          <view class="red fz30 mt20">
+          ￥100
+          </view>
+        </view>
+
+        <view class='qc'></view>
+      </view>
+
+    </view>
+</view>
