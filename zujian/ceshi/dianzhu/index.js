@@ -1,4 +1,14 @@
+import base from "../../../utils/base.js"
 Component({
+  created() {
+    let th=this
+    base.ajax("get_user", {}, function(data) {
+     console.log(data)
+      th.setData({ mh_df: data.data[0]})
+    },'get')
+
+
+  },
   properties: {
     // 这里定义了innerText属性，属性值可以在组件使用时指定
     innerText: {
@@ -11,6 +21,7 @@ Component({
     someData: {
 
     },
+    mh_df:""
 
   },
   methods: {
@@ -18,9 +29,10 @@ Component({
     customMethod: function() {
 
     },
-    poda_d() {
+    poda_d(e) {
+  
       wx.makePhoneCall({
-        phoneNumber: '13538190372' //仅为示例，并非真实的电话号码
+        phoneNumber: e.currentTarget.dataset.phone//仅为示例，并非真实的电话号码
       })
     }
   }

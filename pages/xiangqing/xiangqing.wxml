@@ -1,22 +1,60 @@
 <view class="pd pt20 pm20 bgff">
   <view class='fz34'>
-    标题标题标题标题
+    {{cp.title}}
   </view>
   <view class="ye fz32 mt20">
-    ￥100.00
+    ￥{{cp.jiner}}
   </view>
 </view>
 
 <view class='mt10'>
-
+ 
   <dianzhu></dianzhu>
 </view>
 
 <view class="mt10 bgff pd pt20 pm20 dsf_hgh_drrty">
-  <image src='/img/dfs_sdf.jpg' class='w100 kx' wx:for="{{10}}"></image>
-
+  <image src='{{item}}' class='w100 kx' wx:for="{{cp.xiangqing}}" mode="widthFix"></image>
+ 
 </view>
 
 
 
-<dsdb></dsdb>
+
+<view class='btm dsf_dibu_df'>
+  <view class='mui-col-xs-6 cen'>
+
+
+    <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_index'>
+      <image src='/img/zhuye.png'></image>
+      <view class='fz26 z6'>主页</view>
+    </view>
+    <button open-type="share" class='mui-col-xs-4 fdsf_jh_deet pt10'>
+      <image src='/img/fenxiang.png'></image>
+      <view class='fz26 z6'>分享</view>
+    </button>
+
+    <view class='mui-col-xs-4 fdsf_jh_deet pt10' bindtap='go_wgc'>
+      <image src='/img/xing.png'></image>
+      <view class='fz26 z6'>收藏</view>
+    </view>
+
+    <view class='qc'></view>
+  </view>
+
+  <view class='mui-col-xs-6 cen'>
+
+    <!-- <view class='dsf_sdff_der mui-col-xs-6 '>
+      加入购物车
+    </view> -->
+
+
+    <view class='dsf_sdff_der ab mui-col-xs-12 ' bindtap='lijigm' data-jiner='{{cp.jiner}}'>
+      立即购买
+    </view>
+
+  </view>
+
+
+
+  <view class='qc'></view>
+</view>

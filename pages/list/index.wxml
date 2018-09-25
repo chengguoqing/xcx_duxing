@@ -5,7 +5,7 @@
 
   <view class='qc'></view>
 </view>
-
+  
 
 
 
@@ -14,17 +14,20 @@
   <view class='pl10'>
 
 
-    <navigator class='pr10 mui-col-xs-6 mb10' wx:for="{{6}}" url=  "/pages/xiangqing/xiangqing">
-      <image src='/img/dfs_sdf.jpg' class='dfs_sdf_der' mode="aspectFill"></image>
+ <navigator class='pr10 mui-col-xs-6 mb10' wx:for="{{cp}}" url=  "/pages/xiangqing/xiangqing?id_x={{item.id}}">
+      <image src='{{item.fengmian}}' class='dfs_sdf_der' mode="aspectFill"></image>
       <view class='dian fz26'>
-        标题标题标题标题标题标题标题
+        {{item.title}}
       </view>
-<view class='ye fz30 mt10'>
-        ￥8.8
-        <view class="fr fz24 ls mt5">月销量:30</view>
+      <view class='ye fz30 mt10'>
+        ￥{{item.jiner}}
+        <view class="fr fz24 ls mt5">月销量:{{item.yuexiaoliang}}</view>
       </view>
     </navigator>
 
+
+
+  
     <view class='qc'></view>
 
   </view>

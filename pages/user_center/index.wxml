@@ -1,18 +1,18 @@
 <view class='user_icon_er cen pt40'>
-      <image src='/img/touxiang.jpg' class='yj user_eert'></image>
-      <view class='fz32 cf mt10'>独行工匠</view>
+      <image src='{{x_login.avatarUrl}}' class='yj user_eert'></image>
+      <view class='fz32 cf mt10'>{{x_login.nickName}}</view>
 </view>
 
-<navigator  url="/pages/my_order/index" class='bgff pt20 pm20 pd fz32 pr'>
-  我的订单
+<navigator  url="/pages/my_order/index" class='bgff pt20 pm20 pd fz32 pr'>   
+  我的订单 
   <image src='/img/right_e.png' class="right_eer"></image>
 </navigator>
-<navigator url="/pages/wodesc/index" class='bgff pt20 pm20 pd fz32 pr btm'>
+<!-- <navigator url="/pages/wodesc/index" class='bgff pt20 pm20 pd fz32 pr btm'>
   我的收藏
   <image src='/img/right_e.png' class="right_eer"></image>
-</navigator>
+</navigator> -->
 <navigator url="/pages/wotijiao/index" class='bgff pt20 pm20 pd fz32 pr btm'>
-  我提交的需求 
+  我提交的需求  
   <image src='/img/right_e.png' class="right_eer"></image>
 </navigator>
 <view class='bgff pt20 pm20 pd fz32 pr btm' bindtap='boda'>

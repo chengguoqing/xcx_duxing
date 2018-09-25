@@ -1,4 +1,5 @@
 // pages/list/index.js
+import base from "../../utils/base.js"
 Page({
 
   /**
@@ -17,7 +18,8 @@ Page({
       name: "新品",
       id: 2,
       cls: ""
-    }]
+    }],
+    cp:[]
   },
 
   dsf_sddfg(e) {
@@ -31,11 +33,20 @@ Page({
       sd_dgdf: sd_dgdf
     })
   },
-  /**
+  /** 
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    let der_er = parseInt(options.type)+1 
+    let th = this,
+      get_cp_w = {}
+    get_cp_w.leixing = der_er
+    base.ajax("get_cp_w", get_cp_w, function(data) {
+      console.log(data)
+      th.setData({
+        cp: data.data
+      })
+    })
   },
 
   /**

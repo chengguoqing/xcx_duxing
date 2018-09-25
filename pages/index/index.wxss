@@ -30,3 +30,9 @@
   width: 269rpx;
   height: 47rpx;
 }
+.df_j_derrt{
+  border-left: 4rpx solid #FF7700;
+  display: inline-block;
+  line-height: 1;
+  padding-left: 20rpx;
+}

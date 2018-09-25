@@ -1,17 +1,17 @@
 <view class='pd pt20 pm20 bgff'>
-  <image src='/img/touxiang.jpg' class="dfs_sdf_de fl yj4"></image>
+  <image src='{{mh_df.fengmian}}' class="dfs_sdf_de fl yj4"></image>
   <view class='df_jhj_dert'>
 
     <view class="sd_jhg_deer">
-      <view class='fz32'>欢迎光临本店，我是店主</view>
+      <view class='fz32'>{{mh_df.hyy}}</view>
       <view class='dianer fz26 z9 mt10'>
-        本店24小时不打烊，购买后请加客服微信
+        {{mh_df.jiesao}}
       </view>
     </view>
-
+ 
     <view class='ov tr pt20'>
-      <view class='dianhua_sd cz' bindtap='poda_d'>
-        <image src='/img/dianhua.png' class='cz'></image>
+      <view class='dianhua_sd cz' bindtap='poda_d' data-phone="{{mh_df.phone}}">
+        <image src='/img/dianhua.png' class='cz' ></image>
       </view>
 <button open-type="contact" class='dianhua_sd ab ml10 cz'>
     

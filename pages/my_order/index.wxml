@@ -1,14 +1,14 @@
-<view class="bgff mb20" wx:for="{{5}}">
+<view class="bgff mb20" wx:for="{{order_list}}">
     <view class="pd fz26 pt20 pm20">
       支付成功
-      <view class="fr z9">2018-09-03 16:20</view>
+      <view class="fr z9">{{item.mtime}}</view>
       <view class="btm  mt20 pt20">
-        <image src='/img/touxiang.jpg' class="touxeeer yj4 fl" ></image>
+        <image src='{{item.fengmian}}' class="touxeeer yj4 fl" ></image>
         <view class='ov pl20'>
-          <view class='fz32 dian mt10'>标题</view>
+          <view class='fz32 dian mt10'>{{item.title}}</view>
           <view class="red fz30 mt20">
-          ￥100
-          </view>
+          ￥{{item.jiner}}
+          </view> 
         </view>
 
         <view class='qc'></view>

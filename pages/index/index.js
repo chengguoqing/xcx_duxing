@@ -1,4 +1,5 @@
 // pages/user_center/index.js
+import base from "../../utils/base.js"
 Page({
 
   /**
@@ -26,13 +27,26 @@ Page({
       icon: "/img/app.png",
       name: "app",
       cls: "ac"
-    }]
+    }],
+    cp: ""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    let th = this,
+      get_cp_w = {}
+    get_cp_w.is_index = 1
+    console.log()
+    base.ajax("get_cp_w", get_cp_w, function(data) {
+      
+      th.setData({ 
+        cp: data.data
+      })
+    })
+
+
 
   },
 

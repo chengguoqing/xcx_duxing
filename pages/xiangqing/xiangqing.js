@@ -1,24 +1,68 @@
 // pages/xiangqing/xiangqing.js
+import base from "../../utils/base.js"
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-
+  data: { 
+    cp: ""
   },
 
   /** 
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+
+    let der_er = options.id_x
+    let th = this,
+      get_cp_w = {}
+    get_cp_w.id = der_er
+    base.ajax("get_cp_w", get_cp_w, function(data) {
+
+      data.data[0].xiangqing = data.data[0].xiangqing.split(",")
+      console.log(data.data[0])
+      th.setData({
+        cp: data.data[0]
+      })
+    })
+
+
+
     wx.showShareMenu({
       withShareTicket: false
     })
 
 
-  },
 
+
+  },
+  lijigm(e) { //立即购买
+    let openid = wx.getStorageSync('openid')
+    let qianming = {}, 
+      cp = this.data.cp
+    qianming.jiner = e.currentTarget.dataset.jiner
+    qianming.openid = openid
+
+    base.ajax("qianming", qianming, function(data) {
+      let sd_Dert = data
+      sd_Dert.success = function() {
+        let gm_cp_sd = {}
+        gm_cp_sd.title = cp.title 
+        gm_cp_sd.fengmian = cp.fengmian
+        gm_cp_sd.jiner = cp.jiner
+        gm_cp_sd.openid = openid
+
+        base.ajax("gm_cp_sd", gm_cp_sd, function(data) {
+          wx.navigateTo({
+            url: '/pages/my_order/index'
+          })
+        })
+      }
+
+      wx.requestPayment(data)
+    }, 'get')
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -72,14 +116,14 @@ Page({
       console.log(res.target)
     }
     return {
-     
+
       title: '自定义分享标题',
       desc: '自定义分享描述',
       path: '/pages/xiangqing/xiangqing',
-      success: function (res) {
+      success: function(res) {
         console.log("成功")
       },
-      fail: function (res) {
+      fail: function(res) {
         console.log("失败")
       }
 

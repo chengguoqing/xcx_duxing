@@ -1,8 +1,8 @@
-<dx_banner imgUrls="{{imgUrls}}"></dx_banner>
+<dx_banner ></dx_banner>
 
 <view class='mui-row cen bgff pt30 pm20'>
 
-  <navigator class='mui-col-xs-4 ' wx:for="{{t_sd_fert}}" url="/pages/list/index">
+  <navigator class='mui-col-xs-4 ' wx:for="{{t_sd_fert}}" url="/pages/list/index?type={{index}}">
     <view class='sd_jhg_deer {{item.cls}}'>
       <image src='{{item.icon}}' class='cz'></image>
     </view>
@@ -16,6 +16,16 @@
   <view class='qc'></view>
 </view>
 
+<view class='pd bgff mt10 pt20 pm20'> 
+  <view>
+    <text class='fz30 df_j_derrt'>独行工匠一专业前端开发切图外包</text>
+  </view>
+  <view class='fz26 z9 mt10'>
+  专业前端开发！提供PC端、移动端、APP、小程
+序前端、HTML5动画特效( canvas、svg)等多种前端切
+图服务。手写代码，简洁高效
+  </view>
+</view>
 
 <view class='mt10'>
   <dianzhu></dianzhu>
@@ -29,14 +39,14 @@
   <view class='pl10'>
 
 
-    <navigator class='pr10 mui-col-xs-6 mb10' wx:for="{{6}}" url=  "/pages/xiangqing/xiangqing">
-      <image src='/img/dfs_sdf.jpg' class='dfs_sdf_der' mode="aspectFill"></image>
+    <navigator class='pr10 mui-col-xs-6 mb10' wx:for="{{cp}}" url=  "/pages/xiangqing/xiangqing?id_x={{item.id}}">
+      <image src='{{item.fengmian}}' class='dfs_sdf_der' mode="aspectFill"></image>
       <view class='dian fz26'>
-        标题标题标题标题标题标题标题
+        {{item.title}}
       </view>
       <view class='ye fz30 mt10'>
-        ￥8.8
-        <view class="fr fz24 ls mt5">月销量:30</view>
+        ￥{{item.jiner}}
+        <view class="fr fz24 ls mt5">月销量:{{item.yuexiaoliang}}</view>
       </view>
     </navigator>
 

@@ -1,4 +1,14 @@
+import base from "../../../utils/base.js"
 Component({
+  created() {
+    let th = this
+    base.ajax("get_user", {}, function (data) {
+     
+      th.setData({ imgUrls: data.data[0].banner.split(",") })
+    }, 'get')
+
+
+  },
   properties: {
     // 这里定义了innerText属性，属性值可以在组件使用时指定
     innerText: {
@@ -15,6 +25,8 @@ Component({
     someData: {
 
     },
+    imgUrls:"",
+    mh_df:"",
     indicatorDots: true, //是否显示点点
     autoplay: true, //自动播放
     active_color: "#fff", //点选中的颜色
