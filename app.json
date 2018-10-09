@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/liaomei/index",
     "pages/index/index",
     "pages/star/index",
     "pages/wotijiao/index",

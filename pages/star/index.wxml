@@ -1,0 +1,5 @@
+<button class='sfdf_dfert' open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+
+<image  src="/img/qidong.png" class="qidong" ></image>
+
+</button>
